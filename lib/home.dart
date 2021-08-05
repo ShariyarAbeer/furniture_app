@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:furniture_app/profile.dart';
 
 import 'productPage.dart';
+import 'shoppingCart.dart';
 
 class Home extends StatefulWidget {
   const Home({Key key}) : super(key: key);
@@ -302,7 +303,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
             child: Profile(),
           ),
           Center(
-            child: Profile(),
+            child: ShoppingCart(),
           ),
           Center(
             child: Profile(),
