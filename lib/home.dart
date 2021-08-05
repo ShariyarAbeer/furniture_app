@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:furniture_app/profile.dart';
 
 import 'productPage.dart';
+import 'recommend.dart';
 import 'shoppingCart.dart';
 
 class Home extends StatefulWidget {
@@ -300,7 +301,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
             ),
           ),
           Center(
-            child: Profile(),
+            child: Recommend(),
           ),
           Center(
             child: ShoppingCart(),
@@ -328,7 +329,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
             ),
             Tab(
               icon: Icon(
-                Icons.timer,
+                Icons.recommend,
                 color: Colors.orange,
               ),
             ),
